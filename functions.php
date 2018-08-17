@@ -79,6 +79,8 @@ if ( ! function_exists( '_s_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+
+		add_theme_support( 'align-wide' );
 	}
 endif;
 add_action( 'after_setup_theme', '_s_setup' );
