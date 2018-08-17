@@ -24,6 +24,4 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "normalize";
 
 // Necessities
-@import "modules/accessibility";
-@import "modules/alignments";
-@import "modules/clearings";
+@import "base/display-hacks";
