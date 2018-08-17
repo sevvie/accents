@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "sass": "node-sass --output-style=expanded --indent-type=space --indent-width=2 --include-path sass sass/style.scss style-unprefixed.css",
+    "postcss": "postcss style-unprefixed.css --use autoprefixer -o style.css",
+    "build:css": "npm run sass && npm run postcss && rm style-unprefixed.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.1",
+    "node-sass": "^4.9.3",
+    "postcss-cli": "^6.0.0"
+  }
+}
