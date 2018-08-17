@@ -14,6 +14,8 @@ Compiling
 
 ```bash
 npm run build:css
+     (or)
+yarn build:css
 ```
 
 If you only need `style.css`, you can use `npm run build:css:style`; likewise, if you only want to compile `woocommerce.css` you would use `npm run build:css:woocommerce`.
