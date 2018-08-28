@@ -2,7 +2,7 @@
   "scripts": {
     "sass:style": "node-sass --output-style=expanded --indent-type=space --indent-width=2 --include-path sass sass/style.scss style-unprefixed.css",
     "postcss:style": "postcss style-unprefixed.css --use autoprefixer -o style.css",
-    "build:css:style": "npm run sass:style && npm run postcss:styl && rm style-unprefixed.css",
+    "build:css:style": "npm run sass:style && npm run postcss:style && rm style-unprefixed.css",
 
     "sass:woocommerce": "node-sass --output-style=expanded --indent-type=space --indent-width=2 --include-path sass sass/woocommerce.scss woocommerce-unprefixed.css",
     "postcss:woocommerce": "postcss woocommerce-unprefixed.css --use autoprefixer -o woocommerce.css",
